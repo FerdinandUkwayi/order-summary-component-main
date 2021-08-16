@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="stylesheet" href="css/site.css">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      height: 100vh;
+      background-image: url("images/pattern-background-desktop.svg");
+      background-repeat: no-repeat;
+    }
+
+    .card {
+      width: 22rem
+    }
+
+    .btn  {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+  </style>
+</head>
+
+<body class="d-flex flex-column justify-content-center align-items-center">
+  <div class="card w-sm-25 bg-white bordered">
+
+    <img src="images\illustration-hero.svg" alt="" class="card-img-top" alt="card-img">
+
+    <div class="card-body">
+      <div class="row">
+        <div class="col text-center my-2">
+          <h3 class="font-weight-bolder">Order Summary</h3>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on any
+            device anywhere you like!
+          </p>
+        </div>
+      </div>
+      <div class="row plan mb-3 mx-3 block bg-light p-2 rounded">
+
+        <img src="images\icon-music.svg" class="img-fluid float-right ml-2" alt="">
+
+        <div class="col-6 text-center">
+          <span class="font-weight-bold">Annual Plan</span>
+          $59.99/year
+        </div>
+        <div class="col-3 font-weight-bold text-decoration-underline">
+          <a href="http://" class="float-right">Change</a>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center px-4">
+        <button class="btn btn-primary btn-block">Proceed to Payment</button>
+      </div>
+      <div class="row d-flex justify-content-center my-2">
+        <a href="http://">Cancel Order</a>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ukwayi Ferdinand</a>.
+  </div>
+</body>
+
+</html>
